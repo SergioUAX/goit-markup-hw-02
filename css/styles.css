@@ -15,13 +15,6 @@ body {
     list-style: none;
  }
 
-.visually-hidden {
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
  .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -84,7 +77,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     cursor: pointer;
     }
@@ -124,7 +116,6 @@ body {
 }
 
 .team-list-item {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
