@@ -1,6 +1,9 @@
+
 body {
     font-family: "Roboto",sans-serif;
+    color: #2e2f42;
     background: #fff;
+
  }
 
  a {
@@ -47,8 +50,9 @@ body {
     color: #2e2f42;
 }
 
-.orderservice {
-    background: #2e2f42;
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
 }
 
 .header-contacts-link {
@@ -59,25 +63,40 @@ body {
     color: #434455;
 }
 
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404bbf;
+}
+
+.orderservice {
+    background: #2e2f42;
+}
+
 .orderservice-header {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 
 .orderservice-button {
-        font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    cursor: pointer;
     }
+    
+.orderservice-button:hover,
+.orderservice-button:focus {
+    background: #404bbf;
+}
 
 .advantages-list-item-subtitle {
     font-weight: 500;
@@ -88,7 +107,6 @@ body {
 }
 
 .advantages-list-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -110,6 +128,7 @@ body {
 
 .team-list-item {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .team-list-item-image {
@@ -126,7 +145,6 @@ body {
 }
 
 .team-list-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -156,7 +174,6 @@ body {
 }
 
 .portfolio-list-item-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -182,7 +199,6 @@ body {
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
